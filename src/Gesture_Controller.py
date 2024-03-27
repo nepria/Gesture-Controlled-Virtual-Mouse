@@ -595,6 +595,6 @@ class GestureController:
         GestureController.cap.release()
         cv2.destroyAllWindows()
 
-# uncomment to run directly
-# gc1 = GestureController()
-# gc1.start()
+
+gc1 = GestureController()
+gc1.start()
